@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa;
-            padding: 20px;
+            background-image: url('img/hojitas4.webp');
+            min-height: 100vh;
         }
         .table-container {
             max-width: 900px;
@@ -26,9 +26,24 @@
             background-color: #7ab730;
             color: white;
         }
+
+        .btn-custom {
+            background-color: #7ab730;
+            border-color: #7ab730;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #7ab730;
+            border-color: #7ab730;
+            color: white;
+        }
     </style>
 </head>
 <body>
+    <div class="d-flex justify-content-end">
+        <a href="{{ route('dashboard') }}" class="btn btn-custom btn-circle">Cerrar</a>
+    </div>
+
     <div class="container table-container">
         <h1>Listado de Voluntarios</h1>
       
