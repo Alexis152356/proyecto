@@ -38,10 +38,11 @@
         padding: 0;
     }
     .seccion {
-        height: 520vh; /* Opcional: altura de cada sección a pantalla completa */
+        background-image: url('img/hojitas4.webp');
+        height: -120vh; /* Opcional: altura de cada sección a pantalla completa */
     }
     .seccion1 {
-        background-image: url('img/hojitas4.webp');
+        
     }
     
     /* titulos para menu */
@@ -172,7 +173,7 @@ video {
     
     <!-- Carousel End -->
 
-    <div class="seccion seccion1">   
+<div class="seccion seccion1">   
         <div class="text-center mt-3">
             <img src="img/IMG_3074.webp" class="img-fluid custom-img" alt="Responsive Image">
         </div>  
@@ -235,6 +236,18 @@ video {
                 CLABE 014314655068842777</h3>
         </div>
     </div>
+    <center>
+        <div class="donation-container">
+            <h1 class="menuu1">Donaciones</h1>
+            <center>
+            <h1 class="fecha">Tu contribución es importante para nosotros. ¡Gracias por tu apoyo!</h1>
+            </center>
+            <div id="paypal-button-container" class="donation-button"></div>
+            <form action="{{ url('donacion') }}" method="get">
+                @csrf
+                <button type="submit" class="btn btn-custom btn-circle">Recibir Comprobante</button>
+        </div>
+    </center>
 </div>
 
 
@@ -266,7 +279,7 @@ video {
     }
 
     #section2 {
-        background-image: url(img/hojitas4.webp);
+       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -308,29 +321,11 @@ video {
 
 </head>
 <body>
-    <div id="section2">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>
+ 
+  
 
-    <div id="section2">
-        
-     
-
-        <div class="donation-form">
-
-            <br><br><br> <br><br><br><br><br><br>
-            <center>
-                <div class="donation-container">
-                    <h1 class="menuu1">Donaciones</h1>
-                    <center>
-                    <h1 class="fecha">Tu contribución es importante para nosotros. ¡Gracias por tu apoyo!</h1>
-                    </center>
-                    <div id="paypal-button-container" class="donation-button"></div>
-                    <form action="{{ url('donacion') }}" method="get">
-                        @csrf
-                        <button type="submit" class="btn btn-custom btn-circle">Recibir Comprobante</button>
-                </div>
-            </center>
+           
+            
 
 
 

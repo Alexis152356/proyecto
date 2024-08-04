@@ -201,7 +201,7 @@
         width: 100%;
         background: rgba(0,0,0,0.6);
         color: #fff;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
         padding: 1rem;
         transform: translateY(0);
