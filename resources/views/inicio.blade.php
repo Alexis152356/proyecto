@@ -138,7 +138,7 @@
         </div>
     </div>
     <!-- Testimonial End -->
-    <center><img width="100%" height="80%" src="img/mision1.png"></center>
+    <center><img width="100%" height="80%" src="img/999.jpg"></center>
 
     <link href="https://fonts.googleapis.com/css2?family=Claphappy&family=Bellerose&display=swap" rel="stylesheet">
 

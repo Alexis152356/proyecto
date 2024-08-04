@@ -89,7 +89,7 @@
       }
       .content-title {
           color: white;
-          font-size: 1.5em;
+          font-size: 1em;
           margin: 0;
       }
       .content-text {
@@ -201,7 +201,7 @@
         width: 100%;
         background: rgba(0,0,0,0.6);
         color: #fff;
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: 600;
         padding: 1rem;
         transform: translateY(0);
@@ -242,7 +242,7 @@
 
 .titulo {
       color: black;
-      font-size: 25px;
+      font-size: 30px;
       font-family: 'Claphappy', sans-serif;
 }
 
@@ -271,7 +271,7 @@
   <!-- Carousel End -->
 
   <div class=" seccion2">
-    <center><h1 style="font-size: 40px;"  class="titulo">Actividades activas</h1></center>
+    <center><h1  class="titulo">Actividades activas</h1></center>
    
 
     <div class="prog">
@@ -299,13 +299,13 @@
 <center>
   
   <header class="header" role="banner">
-    <center><h1 style="font-size: 40px;" class="titulo">Videos</h1></center>
+    <center><h1  class="titulo">Videos</h1></center>
   </header>
   <br><br><br>
   <main role="main">
     <section class="videos" id="featured-videos">
       <div class="video-grid front-page" id="front-page-videos">
-        <ul class="video-list featured">
+        
           <li class="video featured">
             <a data-fancybox href="https://youtu.be/Q2dmA2kVv0M" class="featured-video">
               <figure style="background-image: url(img/IMG_1678.webp);">

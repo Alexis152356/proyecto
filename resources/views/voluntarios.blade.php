@@ -227,7 +227,6 @@
                                             <img src="{{ asset('storage/' . $file->path) }}" class="card-img-top" alt="{{ $file->filename }}">
                                             <div class="card-body">
                                                 <p class="texto">{{ $file->description }}</p>
-                                                <h1 class="titulo">Lider Voluntario</h1> 
                                                 <p class="texto" ><strong></strong> {{ $file->name }}</p>
                                             </div>
                                         </div>
